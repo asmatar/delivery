@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Food delivery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app allows you to order food with complete stripe payment process
 
-## Available Scripts
+# Feature | description
 
-In the project directory, you can run:
+• Home page to describe a bit teh website, some carousels are visible
 
-### `npm start`
+• Comming to the food page you have access to all the products (i made them one by one on stripe application)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+• You can have a look to the product detail
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+• You have access to the products that match to the product category you have select
 
-### `npm test`
+• You can filter by name, price asc, price dsc, category
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+• You will be able to check your command on the card page or by clicking to the basket icon
 
-### `npm run build`
+• You will be able to talk with me on live with tawkto funcionality
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+• You will be able to contact me directly with emailjs on the contact page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+• Login / logout with firebase email and password with a verification system
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+• Notification system when the data are fetching
 
-### `npm run eject`
+• keep your order in local storage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+• LOGIN FEATURES => to write coment on the product detail page, when you are connected a button to add comand appear
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+• LOGIN FEATURES => You are able to pay and order you command with stripe payment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Tecnologies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+• React
 
-## Learn More
+• Tailwindcss
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+• Fetch data from firebase
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+• Redux toolkit
 
-### Code Splitting
+• Context api
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+• Swiperjs
 
-### Analyzing the Bundle Size
+• live chat system with tawkto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+• emailjs to contact me directly on my mailbox
 
-### Making a Progressive Web App
+• framer motion
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+• stripe
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Launch
