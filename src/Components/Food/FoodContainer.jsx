@@ -6,7 +6,7 @@ import { useSelector } from 'react-redux';
 import CartItem from '../Home/CartItem';
 
 function FoodContainer({ indexOfFirstPost, indexOfLastPost, setToggleNotification }) {
-  const products = useSelector((state) => state.products.products);
+  const products = useSelector(state => state.products.products);
   const filteredFoods = useSelector((state) => state.products.filteredFood);
 
   const currentProducts = filteredFoods.length > 0 ? filteredFoods : products;
